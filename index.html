@@ -1,45 +1,22 @@
-<html lang="en"><head>
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Search Bar</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: url('\chrome_wallpaper.jpg') center/cover no-repeat;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .search-container {
-            max-width: 400px;
-            text-align: center;
-        }
-        .search-bar {
-            width: 100%;
-            padding: 10px;
-            box-sizing: border-box;
-            font-size: 16px;
-        }
-        .search-button {
-            padding: 10px;
-            background-color: #167c6f;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles/background.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="styles/general.css" rel="stylesheet">
 </head>
 <body>
-    <div class="search-container">
-        <form action="https://www.google.com/search" method="GET" target="_blank">
-            <input type="text" class="search-bar" name="q" placeholder="Search...">
-            <button type="submit" class="search-button">Search</button>
-        </form>
-    </div>
-
-
-</body></html>
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+        <div class="searchbar">
+            <input type="text" class="searchbar__input" name="q" placeholder="This is Balmas!">
+            <button type="submit" class="searchbar__button">
+                <i class="material-icons">search</i>
+            </button>
+        </div>
+    </form>
+</body>
+</html>
