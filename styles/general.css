@@ -11,13 +11,14 @@
 
 .top-image-google {
   max-width: 100%; /* Ensure the image doesn't exceed its container */
-  margin-bottom: 20px; /* Add margin at the bottom for spacing */
+  margin-bottom: 50px; /* Add margin at the bottom for spacing */
 }
 
 .top-image-google img {
   width: 450px; /* Set the width of the icons */
-  height: 150px; /* Set the height of the icons */
+  height: auto; /* Set the height of the icons */
 }
+
 .searchbar {
   max-width: 400px; /* Set the maximum width for the search bar */
   margin: auto; /* Center the search bar horizontally */
